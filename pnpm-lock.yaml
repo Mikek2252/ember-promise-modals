@@ -21,7 +21,7 @@ importers:
   packages/ember-promise-modals:
     dependencies:
       '@ember/test-helpers':
-        specifier: ^3.0.0
+        specifier: ^3.2.1
         version: 3.2.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))(webpack@5.91.0)
       '@ember/test-waiters':
         specifier: ^3.0.2
@@ -3024,7 +3024,7 @@ packages:
     resolution: {directory: packages/ember-promise-modals, type: directory}
     engines: {node: '>= 16.*'}
     peerDependencies:
-      '@ember/test-helpers': ^3.0.0
+      '@ember/test-helpers': ^3.2.1
 
   ember-qunit@8.0.2:
     resolution: {integrity: sha512-Rf60jeUTWNsF3Imf/FLujW/B/DFmKVXKmXO1lirTXjpertKfwRhp/3MnN8a/U/WyodTIsERkInGT1IqTtphCdQ==}
