@@ -76,12 +76,6 @@
   "peerDependencies": {
     "@ember/test-helpers": "^3.2.1"
   },
-
-  "peerDependenciesMeta": {
-    "@ember/test-helpers": {
-      "optional": true
-    }
-  },
   "engines": {
     "node": ">= 16.*"
   },

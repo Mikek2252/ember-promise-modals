@@ -166,7 +166,7 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       ember-promise-modals:
-        specifier: workspace:^
+        specifier: 'workspace:'
         version: file:packages/ember-promise-modals(@babel/core@7.24.7)(@ember/test-helpers@3.2.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))(webpack@5.91.0))(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))
       ember-qunit:
         specifier: 8.0.2
@@ -3308,9 +3308,6 @@ packages:
     engines: {node: '>= 16.*'}
     peerDependencies:
       '@ember/test-helpers': ^3.2.1
-    peerDependenciesMeta:
-      '@ember/test-helpers':
-        optional: true
 
   ember-qunit@8.0.2:
     resolution: {integrity: sha512-Rf60jeUTWNsF3Imf/FLujW/B/DFmKVXKmXO1lirTXjpertKfwRhp/3MnN8a/U/WyodTIsERkInGT1IqTtphCdQ==}
@@ -11266,13 +11263,12 @@ snapshots:
 
   ember-promise-modals@file:packages/ember-promise-modals(@babel/core@7.24.7)(@ember/test-helpers@3.2.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))(webpack@5.91.0))(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0)):
     dependencies:
+      '@ember/test-helpers': 3.2.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))(webpack@5.91.0)
       '@ember/test-waiters': 3.0.2
       '@embroider/addon-shim': 1.10.0
       '@embroider/util': 1.7.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))
       decorator-transforms: 1.1.0(@babel/core@7.24.7)
       focus-trap: 6.9.3
-    optionalDependencies:
-      '@ember/test-helpers': 3.2.1(ember-source@4.12.4(@babel/core@7.24.7)(@glimmer/component@2.0.0)(webpack@5.91.0))(webpack@5.91.0)
     transitivePeerDependencies:
       - '@babel/core'
       - ember-source
